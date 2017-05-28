@@ -1,0 +1,210 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodos"
+    tools:context="co.edu.umariana.luiseduardo.pokeap.TarjetaActivity">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        card_view:cardBackgroundColor="#eef2f4"
+        card_view:cardCornerRadius="7dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <AbsoluteLayout
+            android:layout_width="366dp"
+            android:layout_height="249dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_habilidad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="206dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_habilidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="186dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_habilidad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="167dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fotoPokeImageView"
+                android:layout_width="146dp"
+                android:layout_height="127dp"
+                android:layout_gravity="left"
+                android:layout_x="14dp"
+                android:layout_y="60dp"
+                android:background="@drawable/fondoimagen" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="202dp"
+                android:layout_y="59dp"
+                android:text="Código:"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="215dp"
+                android:layout_y="82dp"
+                android:text="Peso:"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="210dp"
+                android:layout_y="103dp"
+                android:text="Altura: "
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="218dp"
+                android:layout_y="125dp"
+                android:text="Tipo:"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="174dp"
+                android:layout_y="147dp"
+                android:text="Experiencia: "
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="173dp"
+                android:layout_y="169dp"
+                android:text="Habilidades: "
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="162dp"
+                android:layout_y="15dp"
+                android:text="Características"
+                android:textColor="#433939"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_experiencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="147dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="125dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_altura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="103dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="82dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_codigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="260dp"
+                android:layout_y="59dp"
+                android:textColor="?attr/colorControlNormal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nombrePokemon"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_x="23dp"
+                android:layout_y="36dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
+                android:textColor="#433939"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/card_view"
+                android:layout_marginEnd="56dp"
+                android:layout_marginRight="56dp"
+                android:layout_marginTop="56dp"
+                android:layout_x="56dp"
+                android:layout_y="189dp"
+                android:background="@drawable/iconolecha"
+                android:onClick="volver" />
+
+        </AbsoluteLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
